@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-03-02 04:45:06 PM"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtBRE1JTjsyMDIxLTAzLTAyOzAzOjEzOjU3IFBNOzMwMTE="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtBRE1JTjsyMDIxLTAzLTAyOzA0OjQ1OjA2IFBNOzI7MzEyMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <output expression="&quot; Input the radius of the circle&quot;" newline="True"/>
+            <input variable="X"/>
+            <comment text="The fllowing will call the Circle funcition &#13;&#10;    using the value the user entered &#13;&#10;&#13;&#10;&#13;&#10;Notice that this variable is called 'X' while &#13;&#10;  the function uses 'Radius'.The value of &#13;&#10;        'X' is passed to the function ."/>
+        </body>
+    </function>
+</flowgorithm>

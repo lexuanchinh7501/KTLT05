@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-03-02 04:45:15 PM"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtBRE1JTjsyMDIxLTAzLTAyOzAzOjI0OjEwIFBNOzMwMDI="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtBRE1JTjsyMDIxLTAzLTAyOzA0OjQ1OjE1IFBNOzI7MzEyMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="Circle" type="Real" variable="Area">
+        <parameters>
+            <parameter name="Radius" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <comment text="This function has one parameter called Radius.&#13;&#10;it acts like a local variable that is &#13;&#10;when the function is called.&#13;&#10;"/>
+            <declare name="Area" type="Real" array="False" size=""/>
+            <assign variable="Area" expression="Pi * Radius ^ 2"/>
+            <comment text="This function returns the contents of the &#13;&#10;           Area variable"/>
+        </body>
+    </function>
+</flowgorithm>
