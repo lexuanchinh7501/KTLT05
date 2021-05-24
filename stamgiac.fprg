@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-03-08 04:23:54 PM"/>
+        <attribute name="created" value="QWRtaW47VFJBTkRVQ0xVT05HOzIwMjEtMDMtMDg7MDQ6MTk6MzIgUE07MjY4Ng=="/>
+        <attribute name="edited" value="QWRtaW47VFJBTkRVQ0xVT05HOzIwMjEtMDMtMDg7MDQ6MjM6NTQgUE07MTsyNzkz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="day" type="Integer" array="False" size=""/>
+            <declare name="cao" type="Integer" array="False" size=""/>
+            <declare name="dientich" type="Integer" array="False" size=""/>
+            <output expression="&quot;nhap do dai day&quot;" newline="True"/>
+            <input variable="day"/>
+            <output expression="&quot;nhap chieu cao&quot;" newline="True"/>
+            <input variable="cao"/>
+            <assign variable="dientich" expression="1/2 *day*cao"/>
+            <output expression="&quot;dien tich la &quot; &amp; dientich" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
